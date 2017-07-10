@@ -9,11 +9,11 @@ class App extends Component {
         <div className="App-header">
           <h1>Out of Context Comics</h1>
         </div>
-
-        <img src={'http://i.imgur.com/Ohuu7bI.jpg?1'} />
-        <img src={'http://i.imgur.com/dZoFSAo.jpg?1'} />
-        <img src={'http://i.imgur.com/tEQAwsG.jpg?1'} />
-        
+        <div className="App-pictures">
+          <img src={'http://i.imgur.com/Ohuu7bI.jpg?1'} />
+          <img src={'http://i.imgur.com/dZoFSAo.jpg?1'} />
+          <img src={'http://i.imgur.com/tEQAwsG.jpg?1'} />
+        </div>
       </div>
     );
   }
