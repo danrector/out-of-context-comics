@@ -19,7 +19,7 @@ request(options, function (error, response, body) {
 });
 
 
-
+//component
 class App extends Component {
 
 
